@@ -1,2 +1,0 @@
-# abinhashim.github.io
-Portfolio
