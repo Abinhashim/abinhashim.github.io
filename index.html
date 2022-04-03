@@ -1,1 +1,110 @@
-test
+
+<!DOCTYPE html>
+<html lang="en_US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Cestar Support</title>
+    <meta name="description" content="customer support platform">
+    <meta name="keywords" content="osTicket, Customer support system, support ticket system">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/css/osticket.css?6bd7884" media="screen"/>
+    <link rel="stylesheet" href="/assets/default/css/theme.css?6bd7884" media="screen"/>
+    <link rel="stylesheet" href="/assets/default/css/print.css?6bd7884" media="print"/>
+    <link rel="stylesheet" href="/scp/css/typeahead.css?6bd7884"
+         media="screen" />
+    <link type="text/css" href="/css/ui-lightness/jquery-ui-1.10.3.custom.min.css?6bd7884"
+        rel="stylesheet" media="screen" />
+    <link rel="stylesheet" href="/css/jquery-ui-timepicker-addon.css?6bd7884" media="all"/>
+    <link rel="stylesheet" href="/css/thread.css?6bd7884" media="screen"/>
+    <link rel="stylesheet" href="/css/redactor.css?6bd7884" media="screen"/>
+    <link type="text/css" rel="stylesheet" href="/css/font-awesome.min.css?6bd7884"/>
+    <link type="text/css" rel="stylesheet" href="/css/flags.css?6bd7884"/>
+    <link type="text/css" rel="stylesheet" href="/css/rtl.css?6bd7884"/>
+    <link type="text/css" rel="stylesheet" href="/css/select2.min.css?6bd7884"/>
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="/images/oscar-favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/oscar-favicon-16x16.png" sizes="16x16" />
+    <script type="text/javascript" src="/js/jquery-3.5.1.min.js?6bd7884"></script>
+    <script type="text/javascript" src="/js/jquery-ui-1.12.1.custom.min.js?6bd7884"></script>
+    <script type="text/javascript" src="/js/jquery-ui-timepicker-addon.js?6bd7884"></script>
+    <script src="/js/osticket.js?6bd7884"></script>
+    <script type="text/javascript" src="/js/filedrop.field.js?6bd7884"></script>
+    <script src="/scp/js/bootstrap-typeahead.js?6bd7884"></script>
+    <script type="text/javascript" src="/js/redactor.min.js?6bd7884"></script>
+    <script type="text/javascript" src="/js/redactor-plugins.js?6bd7884"></script>
+    <script type="text/javascript" src="/js/redactor-osticket.js?6bd7884"></script>
+    <script type="text/javascript" src="/js/select2.min.js?6bd7884"></script>
+    
+	<meta name="csrf_token" content="f116ed36cfeade20e4e26080bd60436c1b3f215d" />
+</head>
+<body>
+    <div id="container">
+                <div id="header">
+            <div class="pull-right flush-right">
+            <p>
+                                 Guest User |                     <a href="/login.php">Sign In</a>
+            </p>
+            <p>
+            </p>
+            </div>
+            <a class="pull-left" id="logo" href="/index.php"
+            title="Support Center">
+                <span class="valign-helper"></span>
+                <img src="/logo.php" border=0 alt="Cestar Support">
+            </a>
+        </div>
+        <div class="clear"></div>
+                <ul id="nav" class="flush-left">
+            <li><a class="active home" href="/index.php">Support Center Home</a></li>
+<li><a class=" new" href="/open.php">Open a New Ticket</a></li>
+<li><a class=" status" href="/view.php">Check Ticket Status</a></li>
+        </ul>
+                <div id="content">
+
+         <h1>Sign in to Cestar College</h1>
+<p>To better serve you, we encourage our Clients to register for an account.</p>
+<form action="login.php" method="post" id="clientLogin">
+    <input type="hidden" name="__CSRFToken__" value="f116ed36cfeade20e4e26080bd60436c1b3f215d" /><div style="display:table-row">
+    <div class="login-box">
+    <strong></strong>
+    <div>
+        <input id="username" placeholder="Email or Username" type="text" name="luser" size="30" value="" class="nowarn">
+    </div>
+    <div>
+        <input id="passwd" placeholder="Password" type="password" name="lpasswd" size="30" value="" class="nowarn"></td>
+    </div>
+    <p>
+        <input class="btn" type="submit" value="Sign In">
+    </p>
+    </div>
+    <div style="display:table-cell;padding: 15px;vertical-align:top">
+    <div style="margin-bottom: 5px;display:none;">
+    Not yet registered? <a href="account.php?do=create">Create an account</a>
+    </div>
+    <div>
+    <b>I'm an agent</b> —
+    <a href="/scp/">sign in here</a>
+    </div>
+    </div>
+</div>
+</form>
+<br>
+<p>
+If this is your first time contacting us or you've lost the ticket number, please <a href="open.php"> open a new ticket </a></p>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Copyright &copy; 2022 Cestar College - All rights reserved.</p>
+        <a id="poweredBy" href="https://osticket.com" target="_blank">Helpdesk software - powered by osTicket</a>
+    </div>
+<div id="overlay"></div>
+<div id="loading">
+    <h4>Please Wait!</h4>
+    <p>Please wait... it will take a second!</p>
+</div>
+<script type="text/javascript">
+    getConfig().resolve({"html_thread":true,"lang":"en_US","short_lang":"en","has_rtl":false,"primary_language":"en-US","secondary_languages":[],"path":"\/"});
+</script>
+</body>
+</html>
